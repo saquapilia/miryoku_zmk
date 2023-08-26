@@ -8,6 +8,7 @@ on:
       board:
         description: 'board'
         required: true
+        default: 'glove80_lh'
       shield:
         description: 'shield'
         required: false
@@ -40,7 +41,7 @@ on:
       clipboard:
         description: 'clipboard'
         required: false
-        default: 'default'
+        default: 'Mac'
         type: choice
         options:
         - "default"
